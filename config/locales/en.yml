@@ -1,5 +1,6 @@
 en:
-  hello: "Hello world"
+  app_name: 'SellIT'
+  meta_title: 'Buy and sell second hand products!'
   activerecord:
     models:
       product: Product
@@ -21,10 +22,14 @@ en:
               blank: "can't be blank"
   common:
     confirm: 'Are you sure?'
-    back: "Go back"
+    back: 'Go back'
   shared:
     header:
       add: 'Add product'
+  authentication:
+    users:
+      create:
+        created: 'Your account has been created!'
   products:
     edit:
       title: 'Edit product'
@@ -32,13 +37,13 @@ en:
       title: 'Add product'
     index:
       title: 'Products:'
-      all: "All"
-      min_price: "Min price"
-      max_price: "Max price"
-      query_text: "What do you want to search"
-      expensive: "Expensive first"
-      cheapest: "Chepear first"
-      newest: "Recently added"
+      all: 'All'
+      min_price: 'Min price'
+      max_price: 'Max price'
+      query_text: 'What do you want to search?'
+      expensive: 'Expensive first'
+      cheapest: 'Cheaper first'
+      newest: 'Recently added'
     show:
       edit: 'Edit product'
       delete: 'Delete product'
@@ -49,13 +54,19 @@ en:
     destroy:
       destroyed: 'Your product has been successfully destroyed'
   categories:
-  category:
-    edit: "Edit"
-    delete: "Delet"
+    category:
+      edit: 'Edit'
+      delete: 'Delete'
     index:
-      title: "Categories"
-      new: "Add category"
+      title: 'Categories'
+      new: 'Add category'
     edit:
-      title: "Edit category"
+      title: 'Edit category'
+    create:
+      created: 'Your category has been successfully created'
+    update:
+      updated: 'Your category has been successfully updated'
+    destroy:
+      destroyed: 'Your category has been successfully destroyed'
     new:
-      title: "New category"
+      title: 'New category'
