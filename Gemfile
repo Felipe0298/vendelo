@@ -79,3 +79,5 @@ end
 
 gem 'did_you_mean', '~> 1.5', '>= 1.5.0'
 
+
+gem "tailwindcss-rails", "~> 2.0"
