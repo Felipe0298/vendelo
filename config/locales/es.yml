@@ -5,7 +5,7 @@ es:
     models:
       product: Producto
       user: Usuario
-      category: Categoria
+      category: Categoría
     attributes:
       product:
         title: 'Título'
@@ -13,22 +13,23 @@ es:
         price: 'Precio'
         photo: 'Foto'
       user:
-        email: "Correo electronico"
-        username: "Usuario"
-        password: "Contraseña"
-      category: 
-        name: "Nombre"
+        email: 'Correo electrónico'
+        username: 'Usuario'
+        password: 'Contraseña'
+      category:
+        name: 'Nombre'
   common:
     confirm: '¿Estás seguro?'
     back: 'Volver'
-    not_logged_in: "Tienes que hacer login o crearte una cuenta"
-    not_authorized: "No tienes permisos para esta accion"
+    not_logged_in: 'Tienes que hacer login o crearte una cuenta'
+    not_authorized: 'No tienes permisos para esta acción'
+    not_found: 'No se ha encontrado'
   shared:
     header:
       add: 'Añadir producto'
-      login: "Acceso"
-      register: "Registro"
-      logout: "Salir"
+      login: 'Acceso'
+      register: 'Registro'
+      logout: 'Salir'
   authentication:
     users:
       create:
@@ -38,7 +39,7 @@ es:
         created: 'Bienvenido!'
         failed: 'Login inválido!'
       destroy:
-        destroyed: "Tu sesion ha terminado!. Hasta la proxima"
+        destroyed: 'Tu sesión ha terminado! Hasta la próxima'
   products:
     edit:
       title: 'Editar producto'
@@ -56,6 +57,7 @@ es:
     show:
       edit: 'Editar producto'
       delete: 'Borrar producto'
+      view_more_products: 'Ver más productos de %{username}'
     create:
       created: 'Tu producto se ha creado correctamente'
     update:

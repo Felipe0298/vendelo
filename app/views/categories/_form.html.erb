@@ -1,9 +1,9 @@
 <%= form_with(model: category) do |form| %>
   <% @category.errors.full_messages.each do |error| %>
     <div>
-        <%= error %>
+      <%= error %>
     </div>
-<% end %>
+  <% end %>
 
   <div>
     <%= form.label :name %>

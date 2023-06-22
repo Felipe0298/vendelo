@@ -24,9 +24,10 @@ class Authentication::SessionsControllerTest < ActionDispatch::IntegrationTest
 
   test "should logout" do
     login
-    delete session_url(@user.id)
-    assert_redirected_to products_url
-    assert_equal flash[:notice], "Tu sesion ha terminado!. Hasta la proxima"
-  end
 
+    delete session_url(@user.id)
+
+    assert_redirected_to products_url
+    assert_equal flash[:notice], 'Tu sesión ha terminado! Hasta la próxima'
+  end
 end
