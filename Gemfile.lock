@@ -129,6 +129,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
+    pagy (5.10.1)
+      activesupport
     pg (1.5.3)
     pg_search (2.3.6)
       activerecord (>= 5.2)
@@ -168,6 +170,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    redis (4.8.1)
     regexp_parser (2.8.1)
     reline (0.3.5)
       io-console (~> 0.5)
@@ -222,10 +225,12 @@ DEPENDENCIES
   did_you_mean (~> 1.5, >= 1.5.0)
   importmap-rails
   jbuilder
+  pagy (~> 5.10)
   pg (~> 1.1)
   pg_search (~> 2.3)
   puma (~> 5.0)
   rails (~> 7.0.5)
+  redis (~> 4.0)
   selenium-webdriver
   sprockets-rails
   stimulus-rails
