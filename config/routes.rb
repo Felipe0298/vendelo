@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   end
   
+  resources :users, only: :show, path: "/user", param: :username
   resources :categories, except: :show
   resources :products, path: '/'
 
