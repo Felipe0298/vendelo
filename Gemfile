@@ -77,6 +77,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "webmock"
 end
 
 gem 'did_you_mean', '~> 1.5', '>= 1.5.0'
